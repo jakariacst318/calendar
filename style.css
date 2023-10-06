@@ -1,0 +1,29 @@
+.calendar{
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    gap: 30px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.date{
+    background-color: aqua;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 15px;
+}
+.day{
+    flood-color: aquamarine;
+    background-color: #772626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 8px;
+    color: aqua;
+ }
+ .other-month{
+    background-color: #b3b3b3;
+    color: #727070;
+ }
